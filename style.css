@@ -1,0 +1,100 @@
+.top {
+    background: linear-gradient(300deg, #00ffff, #d37727, #e60bd0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    display:block;
+    text-align: center;
+    margin: bottom 40px;
+    height:100px;
+  }
+  h1{
+    color:rgb(48, 52, 56);
+        display: flex;
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        height: 100px; /* Example height */
+        text-decoration:underline;
+  }
+  .center{
+    text-align: center;
+    margin-top:70px;
+
+  }
+  
+ ul {
+    padding-left: 0; 
+    list-style-position: none; 
+  }
+  ol{
+    list-style-position: inside;
+    margin-left: 0; /* Removes default margin */
+    padding-left: 0; /* Removes default padding */
+    text-align: center;
+  }
+  hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+    background-color: turquoise;
+  }
+  .photo
+  {
+    height:150px;
+    border-radius: 50%;
+  }
+  .serif
+  {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(129, 142, 142);
+  }
+  .g1{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        width: 50%;
+        margin: 100px auto 0 auto;
+        text-align: left;
+        row-gap: 2rem;
+        column-gap: 10px;
+  }
+.c,.a,.g{
+    display:block;
+    height: 150px;
+}
+.lineup {
+    text-align: center;   /* Center the list itself */
+}
+
+.lineup ol {
+    display: inline-block; /* Make the ordered list an inline block to center it */
+    padding-left: 0;      /* Remove default padding */
+    list-style-position: inside; /* Place the numbers inside the list items */
+}
+
+.lineup li {
+    text-align: left;     /* Align the text within list items to the left */
+    padding-left: 20px;   /* Optional: add padding to indent the text */
+}
+
+.lineup li ul {
+    padding-left: 20px;    /* Indent subpoints */
+    margin-top: 5px;       /* Optional: space between main points and subpoints */
+    list-style-type: disc;  /* Use bullet points for the unordered list */
+    text-align: left;       /* Align the text in subpoints to the left */
+}
+.edu {
+    text-align: center; /* Center the list itself */
+}
+
+.edu ul {
+    display: inline-block; /* Make the ordered list an inline block to center it */
+    padding-left: 0;      /* Remove default padding */
+    margin: 0;            /* Remove default margin */
+}
+
+.edu li {
+    text-align: left;     /* Align the text within list items to the left */
+    padding: 5px 0;      /* Optional: add some vertical space between items */
+    list-style-position: inside; /* Position numbers inside */
+}

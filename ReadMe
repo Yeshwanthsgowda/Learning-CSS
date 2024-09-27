@@ -1,0 +1,24 @@
+Intro
+Photo
+Hobby
+Education 
+Work Experience
+SKills 
+Projects 
+Contact Me 
+
+
+      <div class="top-container">
+            <div class="topcloud">
+                <img src="./assets/cloud.png" alt="cloud"> 
+            </div>    
+            <div class="heading">
+                <p class="head"> I'm Yeshwanth</p>
+                <p class="pro">  a <span class="underline">pro</span> grammer </p>
+            </div>
+            <div class="bottomcloud">
+                <img src="./assets/cloud.png" alt="bottom cloud" >
+            </div>
+            <div class="mount">
+                <img src="./assets/mountain.png" alt="MOUNTAIN" class="mt" >
+            </div>
